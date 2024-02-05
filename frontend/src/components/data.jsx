@@ -7,7 +7,7 @@ const Data = () => {
   try {
     useEffect(() => {
       const fetchData = async () => {
-        const rawData = await fetch("http://127.0.0.1:5000/posts")
+        const rawData = await fetch("https://axilleaskara-5000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/posts")
           .then((data) => data.json())
           .then((response) => {
             setData(response);

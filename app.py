@@ -11,7 +11,7 @@ csp = {
 # talisman = Talisman(app, content_security_policy=csp)
 
 # Enable Cross Origin Resource Sourcing (CORS) policies
-CORS(app, resources={"/*": {"origins": "http://localhost:3000"}})
+CORS(app, resources={"/*": {"origins": "https://axilleaskara-3000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai"}})
 
 
 @app.route("/")
